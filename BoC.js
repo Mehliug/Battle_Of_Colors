@@ -1,6 +1,6 @@
 const LATENCE = 100; //Latence en ms
 const FREQUENCE_OBJ = 5; //fréquence d'actualisation de l'objet
-const FREQUENCE_MISSILE = 90; //fréquence d'apparition des boules
+const FREQUENCE_MISSILE = 90; //fréquence d'apparition des missiles
 const FREQUENCE_VERIF_MISSILE = 20;
 const DECALAGE_SOURIS_X = 4;
 const DECALAGE_SOURIS_Y = 81;
