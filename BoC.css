@@ -1,0 +1,34 @@
+#rect2 {
+	transition: transform 110ms linear;
+}
+
+#Score_Static_enemy {
+	color: red;
+	transition: left 110ms linear, top 110ms linear;
+}
+
+.score {
+	position: absolute;
+}
+
+#My_Score_Static {
+	color: blue;
+}
+
+.circle {
+	transform: translate(50px, 50px);
+}
+
+span, h1 {
+	-webkit-user-select: none; /* Chrome, Opera, Safari */
+	-moz-user-select: none; /* Firefox 2+ */
+	-ms-user-select: none; /* IE 10+ */
+	user-select: none; /* Standard syntax */
+}
+
+#div {
+	width: 100%;
+	height: 500px;
+	border: 2px solid navy;
+	border-radius: 5px;
+}

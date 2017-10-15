@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Battle Of Colors</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="BoC.css" />
+	</head>
+	<body >
+		<h1>Battle Of Colors (V 0.4.5)</h1>
+		<div id="div">
+			<span class="score" id="Score_Static_enemy">Player2 : <span id="Score_Dynamic_enemy">0</span></span>
+			<span class="score" id="My_Score_Static">Player1 : <span id="My_Score_Dynamic">0</span></span>
+			<svg id="zone_jeux" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+				<g id="missile_group">
+					<!-- ICI S'AFFICHE LES MISSILES --> 
+				</g>
+				<g>
+					<circle class="circle" id="rect" cx="0" cy="0" r="20" stroke="black" stroke-width="3" fill="blue" />
+					<circle class="circle" id="rect2" cx="0" cy="0" r="20" stroke="black" stroke-width="3" fill="red" />
+				</g>
+			</svg>
+		</div>
+
+		<script type="text/javascript" src="BoC.js"></script>
+	</body>
+</html>
